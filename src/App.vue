@@ -23,7 +23,10 @@ delete yearData.dcode;
                ประเทศไทยหากรวมประชากรแฝงที่ไม่ปรากฏในทะเบียนและคนที่เดินทางมาทำงานในตอนกลางวันด้วยแล้ว
                คาดว่าจะสูงถึงเกือบเท่าตัวของ ประชากรที่ปรากฏในทะเบียน
                เราจึงเรียก กรุงเทพฯ ว่าเป็น
-               <a href="https://en.wikipedia.org/wiki/Megacity" class="underline">
+               <a
+                  href="https://en.wikipedia.org/wiki/Megacity"
+                  class="underline"
+               >
                   “อภิมหานคร (megacity)”
                </a>
                คือมีประชากรตั้งแต่ 10 ล้านคนขึ้นไป
@@ -34,9 +37,6 @@ delete yearData.dcode;
             </p>
          </section>
          <br />
-         {{ selectData.district }}
-         {{ selectData.from }}
-         {{ selectData.to }}
          <section>
             <h2 class="text-18 font-bold">การเติบโต</h2>
             <br />
@@ -75,10 +75,12 @@ delete yearData.dcode;
             <h2 class="text-18 font-bold">แหล่งข้อมูล</h2>
             <ul class="list-disc p-5 underline">
                <li>
-                  <a href="https://stat.bora.dopa.go.th/stat/statnew/statMONTH/statmonth/">สำนักบริหารการทะเบียน
-                     กรมการปกครอง กระทรวงมหาดไทย,
+                  <a
+                     href="https://stat.bora.dopa.go.th/stat/statnew/statMONTH/statmonth/"
+                     >สำนักบริหารการทะเบียน กรมการปกครอง กระทรวงมหาดไทย,
                      จำนวนประชากร, สำนักบริหารการทะเบียน กรมการปกครอง
-                     กระทรวงมหาดไทย, Editor. 2564: กรุงเทพฯ.</a>
+                     กระทรวงมหาดไทย, Editor. 2564: กรุงเทพฯ.</a
+                  >
                </li>
 
                <li>
@@ -89,9 +91,11 @@ delete yearData.dcode;
                   </a>
                </li>
                <li>
-                  <a href="http://www.price.moc.go.th/">สำนักดัชนีเศรษฐกิจการค้า กระทรวงพาณิชย์,
+                  <a href="http://www.price.moc.go.th/"
+                     >สำนักดัชนีเศรษฐกิจการค้า กระทรวงพาณิชย์,
                      ข้อมูลดัชนีราคาผู้บริโภคทั่วไป, สำนักดัชนีเศรษฐกิจการค้า
-                     กระทรวงพาณิชย์, Editor. 2563: กรุงเทพฯ.</a>
+                     กระทรวงพาณิชย์, Editor. 2563: กรุงเทพฯ.</a
+                  >
                </li>
             </ul>
          </section>
