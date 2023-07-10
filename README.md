@@ -1,7 +1,27 @@
-# Vue 3 + Vite
+# Boonme Lab Test
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Skills assessment test from Boonme Lab
 
-## Recommended IDE Setup
+## Tools
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+-  Vite + Vue3
+-  Tailwindcss
+
+## Run
+
+You can install package inside project by
+
+    npm install
+
+And run the development server :
+
+    npm run dev
+
+## Comment
+
+จากโจทที่ได้รับมาพบว่า มีความผิดพลาดจากการประเมินเวลาในการทำพอสมควร ซึ่งเกิดจากปัญหาหลัก ๆ อยู่ 2 จุด คือ
+
+1. การแปลง .csv ไปเป็น .json ซึ่งทดลองใช้ papaparse หรือ csvtojson แล้ว แต่ก็ทำไม่ได้ ซึ่งตรงนี้ยังไม่ทราบสาเหตุ แต่พอเห็นว่ากินเวลาไปเยอะแล้ว เลยใช้วิธีนำไฟล์ที่ได้ไปแปลงเองผ่านเว็บไซต์ แล้วจึงนำไฟล์ .json ที่แปลงเสร็จแล้วมาใช้งาน
+2. HTML Canvas ตอนแรกคิดว่าจะเลือกใช้เป็นการเขียน CSS ในการแสดงกราฟ แต่ตอนหา Ref ที่เกี่ยวของพบว่าอาจจะค่อนข้างใช้เวลาพอสมควร เลยเลือกใช้เป็น Canvas จาก HTML เลย ซึ่งก็มีปัญหาเล็กน้อยเกี่ยวกับการทำ Responsive และการทำความเข้าใจการใช้งานเบื้องต้น เลยทำให้ไม่ได้แสดงรายละเอียดของกราฟได้ครบตามที่กำหนดไว้
+
+หลังจากผ่านปัญหาส่วนนี้เสร็จแล้วจึงได้เริ่มไปทำ Dropdowns สำหรับการเลือกข้อมูลที่ต้องการแสดง แต่ด้วยเวลาที่เหลือน้อยแล้วเลยทำได้แค่ส่วนของเขต แต่ส่วนของปีเริ่มต้นถึงจุดใหม่ทำไม่ทัน แต่ในส่วนอื่น ๆ อย่าง Responsive เบื้องต้น หรือ Style ต่าง ๆ ก็คิดว่าน่าจะตามที่กำหนดไว้ได้พอสมควรแล้ว
